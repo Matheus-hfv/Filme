@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Search bar</title>
+</head>
+<body>
+    <div id="container">
+     
+        <div class="input-group">
+            <!-- Ícone da lupa -->
+            <div class="input-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            
+            <input 
+                id="search" 
+                type="text" 
+                class="input-field" 
+                placeholder="Pesquisar"
+            >
+        </div>
+    
+        
+        <ul class="items">
+         
+            <li class="item">
+                
+                <div class="item-image">
+                    <img src="./src/images/filme1.jpg" alt="Avangers poster">
+                </div>
+
+                
+                <div class="item-content">
+             
+                    <h2 class="item-title">O Renascimento da Fusão: Goku e Vegeta</h2>
+
+             
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        Filme (1995)
+                    </p>
+
+                  
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                    </p>
+                </div>
+            </li>
+
+        
+            <li class="item">
+                
+                <div class="item-image">
+                    <img src="./src/images/filme2.webp" alt="Harry Potter poster">
+                </div>
+
+               
+                <div class="item-content">
+                   
+                    <h2 class="item-title">Broly o Lendario SSJ</h2>
+
+                    
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        Filme (2008)
+                    </p>
+
+                   
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                    </p>
+                </div>
+            </li>
+
+          
+            <li class="item">
+               
+                <div class="item-image">
+                    <img src="./src/images/filme3.jfif" alt="Duna poster">
+                </div>
+
+              
+                <div class="item-content">
+                   
+                    <h2 class="item-title">Uma vingança para freeza</h2>
+
+                
+                    <p class="item-subtitle">
+                        <i class="fa-solid fa-film"></i>
+                        Filme (1991)
+                    </p>
+
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                    </p>
+                </div>
+            </li>
+
+        
+            <li id="no_results">
+                <p>Nenhum resultado encontrado</p>
+            </li>
+        </ul>
+    </div>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
